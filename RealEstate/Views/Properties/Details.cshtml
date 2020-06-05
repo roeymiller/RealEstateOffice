@@ -1,0 +1,98 @@
+﻿@model RealEstateOffice.Models.Property
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Property</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Adress)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Adress)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NumOfRooms)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NumOfRooms)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Price)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Price)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Type)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Type)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Elevator)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Elevator)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Balcony)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Balcony)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Parking)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Parking)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Category)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Category)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SQfeet)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SQfeet)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.About)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.About)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.PropertyID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
