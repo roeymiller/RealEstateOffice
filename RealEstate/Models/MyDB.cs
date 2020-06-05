@@ -16,6 +16,6 @@ namespace RealEstateOffice.Models
 
         public DbSet<Broker> brokers { get; set; }
 
-
+        gal commit
     }
 }
