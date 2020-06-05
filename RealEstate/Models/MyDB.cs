@@ -16,7 +16,6 @@ namespace RealEstateOffice.Models
 
         public DbSet<Broker> brokers { get; set; }
 
-        Roey commit
 
     }
 }
