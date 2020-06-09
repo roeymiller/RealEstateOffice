@@ -6,7 +6,7 @@ using System.Data.Entity;
 
 namespace RealEstateOffice.Models
 {
-    public class MyDB :DbContext
+    public class MyDB : DbContext
     {
         public DbSet<Customer> customers { get; set; }
 
@@ -16,6 +16,5 @@ namespace RealEstateOffice.Models
 
         public DbSet<Broker> brokers { get; set; }
 
-        gal new commited
     }
 }
