@@ -143,7 +143,7 @@
     <Compile Include="Models\Broker.cs" />
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\Deal.cs" />
-    <Compile Include="Models\MyDB.cs" />
+    <Compile Include="Models\OfficeDB.cs" />
     <Compile Include="Models\Property.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
