@@ -13,7 +13,7 @@ namespace RealEstateOffice.Models
 
         [Required]
         [DisplayName("ID")]
-        public string CustomerID { get; set; }
+        public int CustomerID { get; set; }
 
         [Required]
         [DisplayName("FirstName")]
